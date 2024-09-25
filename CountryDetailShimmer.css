@@ -1,0 +1,39 @@
+
+/* .country-container {
+    margin-top: 100px;
+} */
+
+main .shimmer {
+    --shimmer-color: hsl(0, 0%, 78%);
+}
+
+main.dark .shimmer {
+    --shimmer-color: hsl(208, 21%, 34%);
+}
+
+
+.shimmer .country-img {
+    max-width: 40%;
+    width: 100%;
+    height: 287px;
+    background-color: var(--shimmer-color);
+    border-radius: 4px;
+}
+
+.shimmer .country-name {
+    max-width: 150px;
+    height: 40px;
+    background-color: var(--shimmer-color);
+    margin-bottom: 26px;
+    border-radius: 4px;
+}
+
+.shimmer .info-text {
+    width: 240px;
+    /* width: 100%; */
+    height: 20px;
+    background-color: var(--shimmer-color);
+    border-radius: 4px;
+}
+
+
